@@ -1,0 +1,52 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    margin-left: 18em;
+    right:0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: 0;
+    position:absolute;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    #myVideo {
+        margin-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 736px) {
+
+    #myVideo {
+        padding-top: 0;
+
+    }
+
+}
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;s
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+p{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+}
+.mySlides {display:none;}
+h2{
+    font-family: 'Francois One', sans-serif;
+}
